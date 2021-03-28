@@ -6,8 +6,10 @@ from log_setup import log
 
 # -----------------------------------------------
 from models.waypoint import Waypoint
+from services import configuration_reader
 
-waypoint_directory_path = "data/waypoint"
+cfg = configuration_reader.get_config()
+waypoint_directory_path = f"{cfg['data_dir']}{cfg['language']}/{cfg['waypoint_dir']}"
 
 
 # -----------------------------------------------
