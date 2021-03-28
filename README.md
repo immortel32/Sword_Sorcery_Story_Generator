@@ -1,1 +1,51 @@
-# Sword_Sorcery_Story_Generator
+# Sword and Sorcery  Story Generator
+## But de cette application
+Le but de cette application est de données une deuxième vie au jeu de société Sword & Sorcery.
+
+À partir d'une banque de quête et de points de cheminement, l'application va construire une campagne unique.
+
+Une même quête pourrait être différente en y incluant des points de cheminements au hasards.
+
+# Que fait l'application présentement?
+Présentement pas grand chose. Elle peut lire différents points de cheminements et générer le livre de contes et le livre de secret.
+
+# Requis
+Il faut que vous ayez Python 3.7 (ou plus) d'installer.
+L'application devrait fonctionner sur tous les systèmes d'opérations
+
+# Comment démarrer l'application?
+- Télécharger le contenu de github
+- aller dans le répertoire app (cd app)
+- démarrer l'application avec la commande:
+    python3 main.py
+  
+# Comment créer de nouveaux points de cheminement "indépendant"?
+Pour créer un nouveau point de cheminement "indépendant", il vous faut:
+- Un titre
+- (optionnel) Des instructions spéciales pour la mise en place
+- (optionnel) Auteur pour que je puise vous ajouter dans la liste des contributeurs
+- L'histoire qui peut comprendre 1 ou plusieurs choix/paragraphes
+
+Une fois votre histoire créée, il faut la mettre dans un fichier (.json) dans le répertoire data/waypoint
+Voici un exemple du fichier boite_mystere_1.json
+```json
+{
+  "title": "Boite mystere",
+  "instruction_setup": "Ce point de cheminement doit être prêt d'un mur",
+  "story": [
+    {
+      "index": 1,
+      "text": "Alors que vous avancez prudement, vous découvrez une boîte dissimulée dans un coin, celle-ci est fermée mais n'est pas vérourillée. Que voulez-vous faire:\n   - Prendre une action spéciale pour ouvrir la boite, lire la section <<INDEX_2>>\n   - Vous décidez d'ignorer la boite. Laissez le point de cheminement à cet endroit et poursuivez votre tour"
+    },
+    {
+      "index": 2,
+      "text": "Vous ouvrez la boite prudemment, pour y découvrir un trésor. Retirez le point de cheminement de la qête."
+    }
+  ]
+}
+```
+
+Vous avez votre histoire mais trop compliqué à mettre en json, envoyez la moi et je le ferai.
+
+# Aidez-moi
+SVP envoyez-moi vos histoires, c'est cette banque d'histoires qui fera la richesse de cette application

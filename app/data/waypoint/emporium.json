@@ -1,9 +1,9 @@
 {
-  "title": "EMBUSCADE!!!!",
+  "title": "Aller à l'emporium",
   "story": [
     {
       "index": 1,
-      "text": "Vous rencontrez des marchands qui vous permettent d'acheter des articles de l'emporium"
+      "text": "Vous avancez tranquillement lorsque des ennemis surgissent autour de vous, c'est une embuscade.\n   - Générez (hero-ennemis) ennemis"
     }
   ]
 }

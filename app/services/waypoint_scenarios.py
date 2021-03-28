@@ -17,7 +17,8 @@ def _list_of_files() -> List[str]:
     Return the list of waypoint story files
     :return:
     """
-    file_list = os.listdir(waypoint_directory_path)
+
+    file_list = (f for f in os.listdir(waypoint_directory_path) if f.endswith('.' + "json"))
     waypoint_list_file = []
     for file in file_list:
         if not file.startswith("_"):
@@ -44,6 +45,7 @@ def load_scenario(file_name: str) -> Waypoint:
     :param file_name:
     :return:
     """
+
     # read file
     with open(f"{waypoint_directory_path}/{file_name}", 'r') as scenario_file:
         scenario_data = scenario_file.read()
