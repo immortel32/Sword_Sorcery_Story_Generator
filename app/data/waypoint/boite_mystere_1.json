@@ -1,0 +1,14 @@
+{
+  "title": "Boite mystere",
+  "instruction_setup": "Ce point de cheminement doit être prêt d'un mur",
+  "story": [
+    {
+      "index": 1,
+      "text": "Alors que vous avancez prudement, vous découvrez une boîte dissimulée dans un coin, celle-ci est fermée mais n'est pas vérourillée. Que voulez-vous faire:\n   - Prendre une action spéciale pour ouvrir la boite, lire la section <<INDEX_2>>\n   - Vous décidez d'ignorer la boite. Laissez le point de cheminement à cet endroit et poursuivez votre tour"
+    },
+    {
+      "index": 2,
+      "text": "Vous ouvrez la boite prudemment, pour y découvrir un trésor. Retirez le point de cheminement de la qête."
+    }
+  ]
+}
