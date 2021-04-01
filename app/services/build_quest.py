@@ -1,6 +1,6 @@
 from typing import List
 
-from models.book_of_secret import Book_Of_Secret
+from models.bookofsecret import BookOfSecret
 from models.chapter import Chapter
 from models.event import Event
 from models.intruction import Instruction
@@ -9,7 +9,7 @@ from log_setup import log
 
 
 class Quest:
-    book_of_secret = Book_Of_Secret()
+    book_of_secret = BookOfSecret()
     quest_number = 1
     chapter_number = 1
 
@@ -22,7 +22,9 @@ class Quest:
     # -----------------------------------------
 
     def _include_waypoint(self, waypoint: Waypoint, event_name: str):
-        log.info(f"Method = _include_waypoint {waypoint.title}, contains {len(waypoint.stories)} stories")
+        log.info(
+            f"Method = _include_waypoint {waypoint.title}, contains {len(waypoint.stories)} stories"
+        )
         chapter_index = {}
 
         # Generating the chapter number for all indexes of the sub-story
@@ -39,9 +41,13 @@ class Quest:
             chapter.title = waypoint.title
             chapter.text = story.text
             while chapter.text.find("<<INDEX") != -1:
-                replace_index = chapter.text[(chapter.text.find("<<INDEX") + 2):chapter.text.find(">>")]
+                replace_index = chapter.text[
+                    (chapter.text.find("<<INDEX") + 2) : chapter.text.find(">>")
+                ]
                 log.info(f"replace_index = {replace_index}")
-                chapter.text = chapter.text.replace(f"<<{replace_index}>>", chapter_index[replace_index])
+                chapter.text = chapter.text.replace(
+                    f"<<{replace_index}>>", chapter_index[replace_index]
+                )
             self.book_of_secret.append_chapters(chapter)
 
         # Create and add Event to book of secret
@@ -79,7 +85,6 @@ class Quest:
         for event in self.book_of_secret.event_table:
             print(f"   - {event.name} = {event.reference}")
         print(f"---")
-
 
         print(f"--------------------")
         print(f" ")

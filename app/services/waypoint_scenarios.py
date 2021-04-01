@@ -12,13 +12,16 @@ waypoint_directory_path = "data/waypoint"
 
 # -----------------------------------------------
 
+
 def _list_of_files() -> List[str]:
     """
     Return the list of waypoint story files
     :return:
     """
 
-    file_list = (f for f in os.listdir(waypoint_directory_path) if f.endswith('.' + "json"))
+    file_list = (
+        f for f in os.listdir(waypoint_directory_path) if f.endswith("." + "json")
+    )
     waypoint_list_file = []
     for file in file_list:
         if not file.startswith("_"):
@@ -27,6 +30,7 @@ def _list_of_files() -> List[str]:
 
 
 # -----------------------------------------------
+
 
 def get_number_of_waypoint_scenarios() -> int:
     """
@@ -39,6 +43,7 @@ def get_number_of_waypoint_scenarios() -> int:
 
 # -----------------------------------------------
 
+
 def load_scenario(file_name: str) -> Waypoint:
     """
     Create an object Waypoint from a Scenario file
@@ -47,7 +52,7 @@ def load_scenario(file_name: str) -> Waypoint:
     """
 
     # read file
-    with open(f"{waypoint_directory_path}/{file_name}", 'r') as scenario_file:
+    with open(f"{waypoint_directory_path}/{file_name}", "r") as scenario_file:
         scenario_data = scenario_file.read()
     waypoint = Waypoint()
     waypoint.build_from_json(json.loads(scenario_data))
@@ -57,6 +62,7 @@ def load_scenario(file_name: str) -> Waypoint:
 
 # -----------------------------------------------
 
+
 def get_random_scenario(number_random_scenario_required: int) -> List[Waypoint]:
     """
     Return the number of scenario randomly selected from the existing waypoint
@@ -65,10 +71,15 @@ def get_random_scenario(number_random_scenario_required: int) -> List[Waypoint]:
     """
     max_available_scenario = get_number_of_waypoint_scenarios()
     if max_available_scenario < number_random_scenario_required:
-        log.info(f"There are only {max_available_scenario} scenario available, {number_random_scenario_required} has been required")
+        log.info(
+            f"There are only {max_available_scenario} scenario available, "
+            f"{number_random_scenario_required} has been required"
+        )
         number_random_scenario_required = max_available_scenario
     list_scenario = []
-    selected_scenarios = random.sample(_list_of_files(), number_random_scenario_required)
+    selected_scenarios = random.sample(
+        _list_of_files(), number_random_scenario_required
+    )
     log.info(f"Will generate scenarios for {selected_scenarios}")
     for scenario in selected_scenarios:
         list_scenario.append(load_scenario(scenario))
