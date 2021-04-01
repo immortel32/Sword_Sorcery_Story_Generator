@@ -1,0 +1,22 @@
+{
+  "title": "Enlevement de la princesse Amelia",
+  "instruction_setup": "Cette quête se passe dans une caverne et les héros commencent dans une grande pièce",
+  "introduction": [
+    "Alors que vous vous promener en forêt, vous voyez un garde du château qui courre dans votre direction en criant:",
+    "- Heros, attendez!!!! Nous avons besoin de vous",
+    "Une fois souffle repris, le garde vous dit:",
+    "   - La princesse Amelia a été enlevé, le roi demande votre aide pour la retrouver.",
+    "Après plusieurs entretiens, vous apprenez que la princesse a été enlevé par le chef des Orcs Nodagog dans une immense caverne. Il y a une entrée secrête qui a été découvert par les éclaireurs du rois, elle vous permettra d'accéder à la grotte en évitant les gardes à l'entrée",
+    "Après vous avoir pris votre équipement de la planque et passé à l'emporium, vous partez pour libérer la princess, lire <<INDEX_1>>"
+  ],
+  "story": [
+    {
+      "index": 1,
+      "text": "Après quelques heures de recherche vous finissez par trouver l'entrée secrête à travers les parois d'un rocher, l'entrée est sombre et débouche dans le coin d'une pièce de la caverne que vous pouvez pénétrer, il ne reste plus qu'à trouver la princesse."
+    }
+    {
+      "index": 2,
+      "text": "E.N. 1 - Vous arrivez face à un mur"
+    }
+  ]
+}
