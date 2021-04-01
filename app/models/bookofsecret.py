@@ -5,7 +5,7 @@ from models.event import Event
 from models.intruction import Instruction
 
 
-class Book_Of_Secret:
+class BookOfSecret:
     event_table: List[Event] = []
     chapters: List[Chapter] = []
     instruction_setup: List[Instruction] = []

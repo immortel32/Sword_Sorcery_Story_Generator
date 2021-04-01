@@ -8,4 +8,3 @@ class TestQuest(TestCase):
     def test__include_waypoint(self):
         quest = Quest()
         waypoint = Waypoint()
-

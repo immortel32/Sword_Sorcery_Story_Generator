@@ -8,4 +8,3 @@ if __name__ == "__main__":
     random_waypoint_scenario = waypoint_scenarios.get_random_scenario(10)
     quest = Quest()
     quest.build_quest(waypoint_list=random_waypoint_scenario)
-
