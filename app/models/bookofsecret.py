@@ -8,6 +8,7 @@ from models.intruction import Instruction
 class BookOfSecret:
     event_table: List[Event] = []
     chapters: List[Chapter] = []
+
     instruction_setup: List[Instruction] = []
 
     def append_chapters(self, chapter: Chapter):

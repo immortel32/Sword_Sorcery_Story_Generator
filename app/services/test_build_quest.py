@@ -1,7 +1,7 @@
 from unittest import TestCase
 
 from models.waypoint import Waypoint
-from services.build_quest import Quest
+from services.build_campaign import Quest
 
 
 class TestQuest(TestCase):

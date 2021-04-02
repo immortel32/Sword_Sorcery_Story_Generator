@@ -10,7 +10,7 @@ Une même quête pourrait être différente en y incluant des points de cheminem
 Présentement pas grand-chose. Elle peut lire différents points de cheminements et générer le livre de contes et le livre de secret.
 
 # Requis
-Il faut que vous ayez Python 3.7 (ou plus) d'installé.
+Il faut que vous ayez Python 3.7 (ou plus)
 L'application devrait fonctionner sur tous les systèmes d'opérations
 
 # Comment démarrer l'application?

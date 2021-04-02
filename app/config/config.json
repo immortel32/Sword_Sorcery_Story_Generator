@@ -1,5 +1,6 @@
 {
   "data_dir": "data/",
   "language": "fr",
-  "waypoint_dir": "waypoint"
+  "waypoint_dir": "waypoint",
+  "quest_dir": "quest"
 }
