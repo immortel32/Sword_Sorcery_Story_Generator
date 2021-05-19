@@ -1,0 +1,484 @@
+---
+title: La mer des périls
+instruction_setup:
+  - Commencer avec la carte événement 5 en jeu
+  - Nuit - Le brouillard n'entoure les héros que pendant la nuit. Jusqu'à ce que la carte jour soit retournée, toutes les attaques effectuées sur le vaisseau des héros ont -1 de frappe.
+  - Jour - Lorsque la carte jour est révélée, la 1ere attaque des héros infligent Mortel 2.
+  - Les jetons Feu, sur le sol, peuvent être réduit de 1 en dépensant un ѧ . Cette action à une portée [1]
+  - Les jetons Feu n'ont aucune limite de quantité sur les cases.
+  - Chaque fois qu'une tuile de carte est générée dans le jeu, elle apparaîtra avec le numéro et la lettre d'identification en bas à droite de la tuile.
+  - La quête échoue si la dernière carte événement est défaussée ou si tous les héros sont des âmes fantômes, voir <<INDEX_8>> si cela se produit.
+introduction:
+  - Après avoir appris que Groont était le chef des « Loups des Mers », qui sont les
+    rebelles qui attaque les échanges commerciaux maritimes, le capitaine Ann se retire
+    pour apporter ces nouvelles au Roi.
+  - Plus tard, les héros reçoivent de nouveau le capitaine Ann porteuse d’une lettre
+    du roi. Celle-ci les informe que le roi, au vu des informations, leur propose de
+    prolonger leur mission et leur demande de se rendre près des ruines d’Avalon pour
+    défaire Groont.
+  - Les héros acceptent de poursuivre la mission. Le capitaine Ann leur remet alors
+    100 couronnes comme complément pour cette mission. Elle les informe qu’ils appareilleront
+    avec un navire marchand qui les déposera non loin de l’endroit indiqué sur la carte
+    et leur dis se rendre le soir au port
+  - Les héros peuvent se rendre à l'emporium et utiliser les bâtiments avant de commencer
+    la quête
+  - Le soir venu, les héros se rendent sur le quai et embarquent sur le navire. Le voyage
+    de nuit se déroulent sans encombre, malgré un brouillard persistant, et les héros
+    profitent de celui-ci. Quand soudain le bateau ralenti, un navire est apparu et
+    porte le pavillon des « Loups des Mers ». Des cris de bataille éclatent, des boules
+    de feu volent dans le ciel et frappe le navire.
+  - Allez au Livre des Secrets, paragraphe <<INDEX_1>> Introduction
+standalone_quest_values:
+  soul_point: 4
+  Crowns: 100
+  Treasure: 1
+  soul_weapons: 1
+story:
+  - index: 1
+    text: |-
+      Certaines parties du navire commencent à prendre feu ; les héros, et leurs compagnons d'équipage, font un vaillant effort pour éteindre les flammes. Les héros ne font pas attention aux dangers potentiels et aident à éviter que le navire ne coule avant d'atteindre leur destination finale. "Nous devons maîtriser ce feu, prenez d’autres seaux supplémentaires !" Les héros rengainent leurs épées et portent des seaux remplis d'eau vers les flammes qui se propagent comme une traînée de poudre.\nғ Placez 10 points de vie sur l'emplacement A, ces points de vie représentent la coque du navire. Si jamais cela atteint zéro, les héros perdent immédiatement la partie. Voir ҏ2.11si cela se produit. ғ Les héros peuvent réparer la coque en dépensant un ѧ (action possible même en étant engagé au combat mais il faut obligatoirement être sur la tuile du bateau 4B). Cela guérit la coque du navire d'un point de vie. La coque du navire ne peut jamais dépasser 10 points de vie.\nғ La coque fonctionne défensivement comme un héros mais est immunisée contre toutes les conditions corporelles en dehors du feu\nғ Défense Coque= 2 armures magiques - 2 des bleu\nғ Placez 1 jeton Feu I (Feu II si 4 héros ou plus) sur chaque case sauf celle des héros.
+  - index: 2
+    text: |-
+      Attaqué !!!
+      Les héros atteignent le pont à tribord et voient, le
+      brouillard se dissipant, le navire des « Loups des Mers
+      » se rapprocher de leur navire. L’un des héros aperçoit
+      un semblant de catapulte sur le pont du navire
+      s’actionner et projeter des formes vers le navire. Une
+      voix crie = « Des Diablotins, ils nous balancent des
+      diablotins !!! »
+      ғ Placer l'evenement naratif 1 sur la pile d'évenement.
+      ғ Placez une Horde de Diablotins Vert ҋҋ sur le
+      portail de génération Ѭ ensuite fermez le.
+      ғ Les canons ennemi visent la coque du vaisseau des
+      héros. La coque doit effectuer une défense contre 3
+      ѭ
+      Les héros sortent leurs armes pour combattre et
+      tandis que le navire adverse les aborde
+      ғ Retirer le mur à droite de la tuile 4B et mettez-le de
+      coté
+      ғ Activer le portail de génération ѩ
+      Ils voient sur le pont du navire adverse deux orcs prêt
+      à combattre et peuvent entendre
+      Roger = « Feu sur ces foutus humains Jolly ! »
+      Jolly = « Bien compris Roger, je vais faire frire ces demi-
+      portions »
+      Roger = « Allons égorger quelques humains, sa nous
+      défoulera ! »
+      ғ Placez Jolly (Guerrier Orc Bleu ҍҍ) et Roger
+      (Guerrier Orc Vert ҋҋ) sur le lieu A.
+      ғ Générez {Ѩ - ѩ} sur le portail de génération ѩ
+      ғ Une fois les deux orcs vaincus, retirez-le Guerrier
+      Orc Bleu de la quête. Mettez le Guerrier Orc Vert dans
+      la défausse si 4 héros, ou plus, sont actifs sinon
+      retirez-le de la quête
+      ғ 1 fois la horde de diablotain vaincu retirez les de la
+      partie.
+      ғ A chaque fois que l'Orc Bleu est activé il commande
+      à son équipage de viser la coque du vaisseau des
+      héros avec les canons. Le bateau doit effectuez une
+      défense 3.
+      ғ Allez au paragraphe <<INDEX_9>>.
+  - index: 3
+    text: |-
+      Un visage amical
+      Le voyage continu quand la vigile crie qu’il y un autre
+      bateau devant eux mais que celui ne porte pas le
+      pavillon des « Loups des Mers ». Le navire se
+      rapproche et les héros peuvent apercevoir un navire
+      marchand sur le pont duquel une personne tente
+      d’attirer leur attention.
+      Une fois que les navires sont côte à côte, la personne
+      s'identifie comme Molly, la marchande de la haute
+      mer. Elle a été chassée par les orcs plus tôt et pense
+      que les actions des héros l'ont sauvée. Elle propose un
+      échange, ou un achat de marchandises, même dans
+      des circonstances aussi difficiles.
+      ғ Placez un jeton ombre Ѩ sur emplacement du point
+      de cheminement 1. Celui-ci représente la marchande
+      ғ Le héros actif place une carte pouvoir, non utilisé,
+      retourné près du paquet évènement avec l’icône III en
+      haut. Lors de chaque phase de préparation, pivotez
+      cette carte de 90° dans le sens horaire. Lorsque cette
+      carte se retrouve avec l’icône de réactivation en haut,
+      la marchande quitte les héros et continu sa route.
+      Retirer le jeton ombre de la quête.
+      ғ Chaque héros non-engagé, dans la même zone que
+      le marchand, peut accéder à l'Emporium pour une
+      action gratuite (une seule fois) mais ne peut pas
+      utiliser les bâtiments
+      ғ Retirez le point de cheminement 1 de la quête
+      ғ Placez l’évènement narratif 2 sur la case du mur à
+      droite de la tuile 4B si le point de cheminement 2 à
+      déjà été dévoilé.
+  - index: 4
+    text: |-
+      Un autre bateau, avec le pavillon des « Loups des
+      Mers » est en approche. A proximité de celui-ci, les
+      héros entendent :
+      "Je suis le capitaine Blackstone et je ne tomberai pas
+      facilement ! Il y a une raison pour laquelle la côte de
+      Talon craint les « Loups des Mers » J'ai tué des
+      guerriers qui avaient deux fois votre taille. Moi vivant,
+      vous ne passerez jamais !! CHARGEZ CES CANNONS ET
+      BOUFFEZ MOI CA BANDE DE SALE CHIEN ! "
+      Équipage : "Oui, capitaine, !!!"
+      ғ Le feu de l'équipage: Trois ѭ frappe le navire des
+      Héros (la coque). Pour chaque carte de rencontre
+      piochée, l'équipage de Blackstone tire avec ses canons
+      pour 2 ѭ s'il n'y a pas de héros sur le navire de
+      Blackstone (sur la tuile 3A).
+      ғ Mettez la tuile de carte 3A en jeu connecté à la tuile
+      18A.
+      ғ Retirer le mur à droite de la tuile 4B
+      ғ Placez la porte d'apparition ѩ dans le coin
+      supérieur droit de la tuile 3A.
+      ғ Placez Blackstone (Pillard Bleu ҍҍ) et un coffre au
+      trésor dans la case centrale de la tuile 3A (avec le
+      drapeau de pirate).
+      REMARQUE : lorsque le Pillard Bleu meurt, mettez-le
+      de côté Ғ
+      ғ Placez le bras droit de Blackstone, Skullsplitter
+      (Diablotin Bleu ҍҍ), dans le coin inférieur gauche de
+      la tuile 3A.
+      REMARQUE : lorsque le Diablotin Bleu meurt, retirez-le
+      de la quête
+      ғ Générez {Ѩ - ѩ} sur le portail de génération ѩ
+      ғ Voir le choix de la nature de l'âme ci-dessous une
+      fois que le capitaine Blackstone et Skullsplitter sont
+      vaincus.
+      Soul Nature Choice
+      Neutral Brulons-le! 2.41
+      Neutral Coupons lui la tête 2.42
+  - index: 5
+    text: |-
+      L’ile
+      Le navire des héros est attiré vers une ile par des
+      vents d’origine magique. Sur cette île il semble y avoir
+      un rassemblement de chamans qui combinent toute
+      leur puissance de sort et le dirige vers le navire des
+      héros. Le vaisseau des Héros s'arrête brutalement et
+      vous ressentez une fissure sous la pression de
+      l'étrange magie noire des chamans.
+      Un portail s’ouvre sur le pont et l'un des chamans
+      apparaît. Des mots sombres sont chuchotés aux
+      oreilles des héros. Exprimant l'intention des chamans
+      de tuer les héros et de revendiquer le navire. Le
+      Chaman repart à travers le portail Ѭ qui reste ouvert
+      il va falloir que nos héros l'emprunte.
+      À cause du flux de magie, le navire subit des dégâts et
+      les héros doivent écourter le combat s’ils ne veulent
+      pas voir leur navire sombré.
+      ғ Le vaisseau (coque) des héros prend 2 ѭ en
+      ignorant l'armure magique. Cette attaque est active
+      chaque fois que le chaman orc bleu est activé et tant
+      que il n'a pas été engagé cette attaque passe à 3ѭ le
+      chaman orc bleu ne fait rien d'autre tant que la porte
+      de la cabane n'a pas été ouverte car il est concentré
+      sur la destruction du navire des héros.
+      ғ Placez la tuile de carte 5B en jeu (numéro dans la
+      bas à gauche). Cette tuile n’est pas connectée au
+      vaisseau des Héros, elle représente l'île.
+      ғ Placez le portail d’apparition ѩ actif sur la case avec
+      le numéro la tuile (5B). Il s'agit de l'emplacement où
+      vous pouvez effectuer le transport vers la dalle 5B. Le
+      mouvement de transport coûte un ѧ.
+      ғ Placez un Chaman Orc Vert ҋҋsur la case à
+      gauche du portail ѩ
+      ғ Placez un Chaman Orc Bleu ҍҍ sur la case à au-
+      dessus du portail ѩ
+      ғ Lorsqu'un chaman est vaincu, retirez-le la quête
+      ғ Placez une porte sur l'entrée de la cabane.
+      ғUne fois que le Chaman Orc Bleu ҍҍest vaincu,
+      voir le paragraphe ҏ2.51.
+  - index: 6
+    text: |-
+      Amiral Gremlin Deathbane
+      Les héros voient un navire plus grand se rapprocher
+      de plus en plus vite de leur navire. En comparaison, le
+      vaisseau des héros a l'air minuscule par rapport au
+      grand vaisseau de l'amiral. Les héros entendent des
+      cris à bord du navire des amiraux, mais ne peuvent
+      comprendre les hurlements en raison des vents
+      violents qui semblent augmenter régulièrement. La
+      seule chose que les héros entendent sont « Vous », «
+      Blade», «Amiral Gremlin Deathbane». Avant que les
+      héros ne le sachent, le plus grand navire de la flotte
+      ennemie les a percutés et les héros ne peuvent même
+      pas apercevoir le pont du navire en raison de sa taille
+      gargantuesque.
+      Immédiatement
+      ғ Faites apparaître la tuile 1B en jeu elle n'est pas relié
+      a une autre tuile.
+      ғ Générez 1 ennemi sur la case centrale de la tuile 4B
+      vous ne pouvez pas quitter le navire tant que un
+      ennemi y est il le ferait couler.
+      ғ En raison du choc, le vaisseau des héros a subi de
+      lourdes pertes, infligez 2 ѭ à la coque du vaisseaux
+      des héros qui passe la défense magique à chaque
+      phase de préparation.
+      ғ Ne jouez pas le choix de la nature de l'âme tant
+      qu'un héros, n’est pas à bord du navire amiral.
+      ғ Un héros doit dépenser 1 ѧ pour aborder le
+      vaisseau de l'amiral en utilisant les cordes pour se
+      balancer d'un navire à l'autre celle ci sont accessibles
+      via la case centrale, la case supérieur gauche et la case
+      inférieur gauche de la tuile4B .
+      ғ Les héros doivent réussir une sauvegarde sur un ѫ
+      afin de pouvoir rejoindre en toute sécurité le vaisseau
+      de tête des Sea Wolf Mercs. Si un héros échoue, il
+      recevra 2 ѭ.
+      ғ Si vous avez détruit Blackstone et son équipage,
+      appliquez les effets de ҏ2.61 BRÛLEZ-LE! (L'amiral est
+      immunisé contre les dégâts de feu) ou ҏ2.62 COUPEZ
+      LUI LA TÊTE ! (L'amiral est immunisé contre les coups
+      critiques.
+      Soul Nature Choice
+      Law
+      Capturez l'amiral
+      2.71
+      Neutral Choisissez loi ou chaos
+      Chaos Bruler le navie
+      2.62
+  - index: 7
+    text: |-
+      2.11 - Le navire est trop endommagé par le feu et les dégâts
+      qui lui sont causé, il sombre lentement. Les Héros, et
+      les survivants, quittent le navire. Ils échouent sur une
+      petite ile.
+      . Plus tard ils sont récupérés par un autre navire
+      marchand et reprennent leur quête.
+      ғ Récompense= 1 Ѽ par héros
+      ғ Prochaine quête= Rejouez cette quête sans visiter
+      l’emporium.
+  - index: 8
+    text: |-
+      2.12 - Les héros tombent sous les coups de l’ennemi. Leur
+      corps tombe au sol et sont jetés par-dessus bord
+      ғ Récompense= Aucune
+      ғ Prochaine quête= Rejouez cette quête avec votre
+      équipement de départ.
+  - index: 9
+    text: |-
+      2.21 - Une lame fend les airs et tranche la tête de Roger.
+      Celle-ci roule lentement au pieds de Jolly.
+      L’orc voyant cela s’écrit « Non ! Roger !!!! » mais ce cri
+      est étouffé par le héros fracassant le crane de l’orc.
+      Les héros prennent le dessus et remporte la bataille.
+      Mais le navire ennemi est trop endommagé et
+      commence à s’enfoncer dans la mer esperons qu'il n'y
+      restait pas de coffre au trèsor.
+      Les héros retournent sur leur navire pour continuer
+      leur route
+      ғ Placez les héros sur l’emplacement de départ (tuile
+      4B)
+      ғ Replacez le mur entre la tuile 4B et 18A
+      ғ Ouvrez le portail Ѭ
+      ғ Retirer de la quête les tuiles 2A (et tous pions
+      dessus)
+      ғ Mélanger les pions de point de cheminement 1 et 2
+      face cachée
+      ғ Placez-les point de cheminement sur la case du lieu
+      A et la case du sanctuaire
+  - index: 10
+    text: |-
+      2.41 - Les héros décident que le capitaine Blackstone subira
+      le même sort que les « Loups des Mers » avait prévu
+      de leur faire subir. Le capitaine blessé est attaché au
+      mât de son navire et des torches sont jetés sur le pont
+      du navire ennemi alors que les héros se retirent en
+      sécurité sur leur propre navire. L'un des héros crie = «
+      Vous avez obtenu ce que vous souhaitiez pour
+      Blackstone, le capitaine n’abandonne jamais son
+      navire ». Les cris de Blackstone deviennent des
+      gargouillis lointains alors que le navire s'enfonce dans
+      les profondeurs de la mer des périls.
+      Le vaisseau de l'Amiral des « Loups des Mers » se
+      trouve sur un navire hors de portée et observe les
+      évènements. Il remarque que la stratégie des héros et
+      d’utiliser le feu à leur avantage et se prépare une
+      concoction contre les brulures afin de pouvoir en être
+      immuniser.
+      ғ Ce fut une grande victoire pour les héros et le moral
+      remonte! Chaque héros guéris de deux points de vie
+      et gagne 1 Ѽ.
+      ғ Placez les héros sur l’emplacement de départ (tuile
+      4B)
+      ғ Replacez le mur entre la tuile 4B et 18A
+      ғ Retirez le portail de génération ѩ de la quête
+      ғ Retirez de la quête les tuiles 2A et 18A (et tous pions
+      ou ennemis dessus ils sont prit dans l'incendie de leur
+      navire)
+      ғ Placez l’évènement narratif 3 sur la case du mur
+      gauche de la tuile 4B
+  - index: 11
+    text: |-
+      2.42 - Les héros décident que le capitaine Blackstone perdra
+      la tête pour ses crimes. Les héros demandent au
+      capitaine et a Skullsplitter de s'agenouiller. L'un des
+      héros tranche rapidement le cou de Skullsplitter qui
+      s’incline en arrière et fini par s’arracher de son cou. La
+      tête de Skullsplitter tombe et roule vers son capitaine.
+      Effrayé par cet acte, le capitaine saute et tente de
+      s'échapper. Avant qu'il ne fasse un troisième pas, une
+      lame d'argent le frappe dans la nuque. Le héros qui
+      avait lancé la lame crie = "Plein dans le mille ! Ça doit
+      être un coup critique !"
+      Le vaisseau de l'Amiral des « Loups des Mers » se
+      trouve sur un navire hors de portée et observe les
+      évènements. Il remarque comment les héros se
+      battent et prépare son armure lourde pour la bataille.
+      Il sait maintenant que les héros aiment frapper avec
+      des coups critiques et prend des mesures de
+      prudence pour éviter que cela lui arrive.
+      ғ Ce fut une grande victoire pour les héros et le moral
+      remonte! Chaque héros guéris de deux points de vie
+      et gagne 1 Ѽ.
+      ғ Placez les héros sur l’emplacement de départ (tuile
+      4B)
+      ғ Replacez le mur entre la tuile 4B et 18A
+      ғ Retirez le portail de génération ѩ de la quête
+      ғ Retirez de la quête les tuiles 2A et 18A (et tous pions
+      et ennemis dessus qui ont péris avec leur capitaine)
+      ғ Placez l’évènement narratif 3 sur la case du mur
+      gauche de la tuile 4B
+  - index: 12
+    text: |-
+      2.51 - Aucune chance qu'ils aient survécu!
+      Alors que le chaman le plus puissant tombe, les héros
+      en profitent pour attaquer la hutte des chamans à la
+      recherche de fournitures susceptibles d'aider les
+      héros dans leur voyage.
+      Un héros se dit = « Pas étonnant qu'ils puissent
+      survivre sur cette île abandonnée », alors qu'il regarde
+      tous les objets empilés dans la hutte.
+      Le sol commence à gronder alors que la magie noire
+      circule autour d'eux. Le chaman a dû maudire la terre
+      avant l'arrivée des héros ... Les héros saisissent à la
+      hâte ce qu'ils peuvent et se dirigent vers leur navire
+      avant que l'île ne s'effondre dans l'océan sans fond de
+      la mer des périls.
+      Immédiatement =
+      ғ Gagnez un petit bandage ou une potion de soins par
+      héros, à distribuer dans toutes les cases de sac
+      disponibles entre les héros.
+      ғ Le héros qui a tué le chaman peut visiter l'Emporium
+      immédiatement et prendre un consommable
+      gratuitement (doit être la version la moins chère de
+      l'objet).
+      Si ce héros n'a pas suffisamment d'espace dans son
+      sac à dos, il peut déposer l'objet choisi sur
+      l'emplacement de départ de votre vaisseau.
+      ғ Téléportez tous les héros et leurs compagnons sur
+      l'île vers l'emplacement de départ du vaisseau des
+      héros. Retirez tous les jetons d'incendie qui peuvent
+      se trouver à cet emplacement.
+      ғ Retirez du jeu l'île sur laquelle les chamans étaient
+      bloqués (Tuile 5B).
+      ғ Placez l'évènement narratif 2 sur la case du mur à
+      droite de la tuile 4B si le point de cheminement 1 à
+      déjà été dévoilé
+  - index: 13
+    text: |-
+      2.62 - Amiral Gremlin Deathbane: Vous osez venir sur mon
+      vaisseau, ne savez-vous donc pas qui nous sommes
+      moi et mes hommes ? Nous sommes la Compagnie
+      des loups ensanglanté, nous arborons se nom à cause
+      de notre capacité à combattre en haute mer et n'y
+      laissez que ruine et épave. PENSEZ-VOUS VRAIMENT
+      QUE VOUS POUVEZ ME DÉFAIRE ! J'en ai assez de cette
+      farce, GREMLINS!A MOI !
+      Les héros se regardent et décident que ce navire Sea
+      Wolf Merc doit être coulé car il a causé beaucoup de
+      ravages sur les lignes d'approvisionnement du nord
+      des Highlands.
+      Nous devons faire tout ce que nous pouvons pour
+      arrêter ces attaques le plus rapidement possible.
+      Immédiatement
+      ғ Placez un point de passage en bas à droite de la
+      tuile. C'est l'endroit où vous arrivez depuis n'importe
+      quel point de passage du vaisseau des héros c'est par
+      la également que vous pouvez retourner sur votre
+      bateau via les cordages (dans le cas ou un héros
+      voudrait retourner sur votre bateau pour le réparer)
+      ғ Faite apparaitre l'amiral Gremlin Deathbane (ҌҌ
+      raider) dans le coin supérieur droit de la tuile.
+      Deathbane a une charge supplémentaire quand il
+      entre en jeu.
+      ғ Créez un pack de ҋ gremlin et un ҍҍ gremlin
+      dans le coin supérieur gauche de la carte. Ces
+      ennemis sont ajoutés à la défausse de l'ennemi
+      lorsqu'ils sont tués.
+      ғ Placez 15 points de vie dans le coin inférieur gauche
+      de la carte, cela représente la coque du navire.
+      ғ Le vaisseau de l'amiral agit comme un héros lors de
+      la défense.
+      Il a 1 ҈ et un ҈ magique. Lorsqu'il concentre ses
+      attaques sur la coque du navire, le navire reçoit 2 ѭ
+      au lieu de 1 ѭ.
+      ғ Si l'amiral est tué, retirez-le du jeu et arrêtez toute
+      apparition d'ennemis pour le reste de la quête.
+      ғ Voir le paragraphe ҏ2.82 lorsque vous avez détruit le
+      navire.
+  - index: 14
+    text: |-
+      2.71 - Amiral Gremlin Deathbane: Vous osez venir sur mon
+      vaisseau, ne savez-vous donc pas qui nous sommes
+      moi et mes hommes ? Nous sommes la Compagnie
+      des loups ensanglanté, nous arborons se nom à cause
+      de notre capacité à combattre en haute mer et n'y
+      laissez que ruine et épave. PENSEZ-VOUS VRAIMENT
+      QUE VOUS POUVEZ ME DÉFAIRE ! J'en ai assez de cette
+      farce, GREMLINS! A MOI !
+      Les héros se regardent et décident que ce Sea Wolf
+      Merc est mieux mort que vivant, mais le capturer est
+      bien plus alléchant à leurs yeux, ils pourront essayer
+      d'obtenir des informations vitales quand les héros
+      attaqueront les ruines d'Avalon.
+      Immédiatement
+      ғ Placez un point de passage en bas à droite de la
+      tuile. C'est l'endroit où vous arrivez depuis n'importe
+      quel point de passage du vaisseau des héros c'est par
+      la également que vous pouvez retourner sur votre
+      bâteau via les cordages. (dans le cas ou un héros
+      voudrais revenir sur votre bâteau pour le réparer)
+      ғ Faite apparaitre l'amiral Gremlin Deathbane (ҌҌ
+      raider) dans le coin supérieur droit de la carte.
+      Deathbane a une charge supplémentaire quand il
+      entre en jeu.
+      ғ Créez un pack de ҋ gremlin et un ҍҍ gremlin
+      dans le coin supérieur gauche de la carte. Ces
+      ennemis sont ajoutés à la défausse de l'ennemi
+      lorsqu'ils sont tués.
+      ғ Voir le paragraphe ҏ2.81 lorsque l'amiral est vaincu.
+  - index: 15
+    text: |-
+      2.81 - L'amiral est assommé et la flotte de Sea Wolf Mercs
+      est en plein désarroi. Ils se dispersent tous et se
+      retirent sur l'île la plus proche pour attendre le départ
+      des héros. L'un des héros emmène l'amiral dans les
+      cellules du vaisseau des héros et le place en lieu sûr.
+      Vous décidez de l'interroger à son réveil. Les héros se
+      regardent, heureux de ce qu'ils ont accompli et
+      choqués d'avoir réussi à s'en sortir vivants. L'un des
+      héros s’exclame = « Nous l'avons attrapé, maintenant
+      nous nous dirigeons vers les ruines d'Avalon».
+      Rappelez-vous cette fin ҏ2.81 pour l'Acte 1 - Quête 3
+      car elle aura un impact sur l'histoire.
+  - index: 16
+    text: |-
+      2.82 - Regardez ce bateau brûler!
+      La flotte Sea Wolf Mercs est en plein désarroi. Ils se
+      dispersent tous et se retirent sur l'île la plus proche
+      pour attendre le départ des héros alors qu'ils
+      regardent leur vaisseau mère couler au fond de
+      l'océan. Les héros prennent une seconde pour
+      s'asseoir et admirer leurs réalisations. Les héros se
+      regardent, heureux de ce qu'ils ont accompli et
+      choqués de s'en être sortis vivants. L'un des héros
+      s’exclame, maintenant que cette flotte brûle et que les
+      habitants des Hautes Terres du Nord sont un peu plus
+      tranquilles, c'est parti pour les Ruines d'Avalon que
+      nous allons.
+      Souvenez-vous de cette fin ҏ2.82 pour l'acte 1 - quête
+      3 elle aura un impact sur le scénario

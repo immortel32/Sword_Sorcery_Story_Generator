@@ -2,6 +2,9 @@ import json
 import os
 import random
 from typing import List
+
+import yaml
+
 from log_setup import log
 
 # -----------------------------------------------
@@ -22,7 +25,7 @@ def _list_of_files() -> List[str]:
     """
 
     file_list = (
-        f for f in os.listdir(waypoint_directory_path) if f.endswith("." + "json")
+        f for f in os.listdir(waypoint_directory_path) if f.endswith("." + "yml")
     )
     waypoint_list_file = []
     for file in file_list:
@@ -55,9 +58,9 @@ def load_scenario(file_name: str) -> Waypoint:
 
     # read file
     with open(f"{waypoint_directory_path}/{file_name}", "r") as scenario_file:
-        scenario_data = scenario_file.read()
+        scenario_data = yaml.load(scenario_file, Loader=yaml.FullLoader)
     waypoint = Waypoint()
-    waypoint.build_from_json(json.loads(scenario_data))
+    waypoint.build_from_json(scenario_data)
 
     return waypoint
 

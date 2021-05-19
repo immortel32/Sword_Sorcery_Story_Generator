@@ -2,6 +2,9 @@ import json
 import os
 import random
 from typing import List
+
+import yaml
+
 from log_setup import log
 
 # -----------------------------------------------
@@ -22,9 +25,7 @@ def _list_of_files() -> List[str]:
     :return:
     """
 
-    file_list = (
-        f for f in os.listdir(quest_directory_path) if f.endswith("." + "json")
-    )
+    file_list = (f for f in os.listdir(quest_directory_path) if f.endswith("." + "yml"))
     quest_list_file = []
     for file in file_list:
         if not file.startswith("_"):
@@ -56,9 +57,9 @@ def load_scenario(file_name: str) -> Waypoint:
 
     # read file
     with open(f"{quest_directory_path}/{file_name}", "r") as scenario_file:
-        scenario_data = scenario_file.read()
+        scenario_data = yaml.load(scenario_file, Loader=yaml.FullLoader)
     quest = Quest()
-    quest.build_from_json(json.loads(scenario_data))
+    quest.build_from_json(scenario_data)
 
     return quest
 
